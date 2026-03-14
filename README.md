@@ -1,5 +1,7 @@
 # NovaSell — Autonomous AI Marketplace Sales Agent
 
+## Try it now on https://hub.rilo.dev/
+
 > **Fully autonomous selling agent** powered by **AWS Amazon Nova AI** that operates on **Shozon UAE**, **Dubizzle**, and **Facebook Marketplace** — handling every step from photo to sold.
 
 NovaSell automates the complete lifecycle of selling items on online marketplaces: analyzing product photos, generating listings, posting ads (with CAPTCHA HITL), responding to buyers, negotiating prices in real time, handling phone calls via voice AI, and scheduling pickups — all orchestrated by Temporal state machines.
