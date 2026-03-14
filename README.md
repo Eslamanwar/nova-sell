@@ -1,6 +1,7 @@
 # NovaSell — Autonomous AI Marketplace Sales Agent
 
 ## Try it now on https://hub.rilo.dev/
+## See already running chat with Nova sell https://hub.rilo.dev/ui?agent_name=novasell&task_id=9bf89f61-af93-4c98-9fbe-30e83bcb4041
 
 > **Fully autonomous selling agent** powered by **AWS Amazon Nova AI** that operates on **Shozon UAE**, **Dubizzle**, and **Facebook Marketplace** — handling every step from photo to sold.
 
