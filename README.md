@@ -441,6 +441,10 @@ sequenceDiagram
 
 ### HITL (Human-in-the-Loop) Flow
 
+![HITL — Live browser control: email and CAPTCHA pre-filled by AI, seller types the security code and clicks Login](images/HITL01.png)
+
+> **What you're seeing:** The AI has already filled the email and password automatically. The workflow pauses and hands the browser to the seller — who reads the CAPTCHA image (`5503`), types it in, and clicks **Login**. The red `Live — Click to interact` indicator confirms the browser is live. Once done, the Temporal workflow resumes and continues posting the ad.
+
 ```mermaid
 flowchart TD
     NOVA_ACT["Nova Act running in browser"]
