@@ -1,0 +1,13 @@
+"""ACP server configuration for the NovaSell Agent."""
+import os
+from agentex.lib.sdk.fastacp.fastacp import FastACP
+from agentex.lib.types.fastacp import TemporalACPConfig
+
+# Create the ACP server
+acp = FastACP.create(
+    acp_type="async",
+    config=TemporalACPConfig(
+        type="temporal",
+        temporal_address=os.getenv("TEMPORAL_ADDRESS", "localhost:7233"),
+    ),
+)

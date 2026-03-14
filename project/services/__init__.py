@@ -1,0 +1,1 @@
+"""NovaSell services — AI integrations, browser automation, and infrastructure."""

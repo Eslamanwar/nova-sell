@@ -1,0 +1,1 @@
+"""NovaSell domain models and schemas."""

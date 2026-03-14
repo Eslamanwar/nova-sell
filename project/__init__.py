@@ -1,0 +1,1 @@
+"""NovaSell - Autonomous AI Selling Agent powered by Amazon Nova."""
