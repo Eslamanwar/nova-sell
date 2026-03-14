@@ -470,7 +470,7 @@ flowchart TD
 
     HITL_START -.->|"concurrent"| HEARTBEAT2
 ```
-
+### When the agent encounters a CAPTCHA or requires human intervention, NovaSell pauses the Temporal workflow and streams a live browser view directly into the chat UI using Chrome DevTools Protocol (CDP) screenshots. The seller sees a "Live — Click to interact" prompt, takes over the browser for just that moment — solving the CAPTCHA or completing a sensitive action — then hands control back. The Temporal workflow resumes exactly where it left off, with the authenticated session intact. No automation is lost, no state is dropped.
 ---
 
 ### Activity Timeout Configuration
